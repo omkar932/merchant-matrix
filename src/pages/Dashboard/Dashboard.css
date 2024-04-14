@@ -1,0 +1,10 @@
+/* Tailwind CSS classes */
+.bg-primary {
+    background-color: #6c63ff;
+    /* Primary color */
+}
+
+.text-primary {
+    color: #6c63ff;
+    /* Primary color */
+}

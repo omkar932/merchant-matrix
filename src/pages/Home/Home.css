@@ -1,0 +1,22 @@
+/* CSS for animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.features {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.benefits {
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 0.5s;
+    /* Delay benefits section animation */
+}
